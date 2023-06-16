@@ -1,0 +1,7 @@
+- name: Preconfig block 
+  block:
+    - name: Delete user
+      user:
+        name: "{{ username }}"   
+        state: absent
+        remove: yes
