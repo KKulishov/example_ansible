@@ -1,0 +1,19 @@
+projects:
+  - username: test6
+    site: test6.w6p.ru
+    alias_domain: www.test.w6p.ru, test4.w6p.ru
+    ssl: false
+    upstream: apache-php8
+    docroot: /home/test6/prod/test6.ru/current/public
+    web_template: bitrix
+    uid: 1006
+    gid: 1006
+  - username: test7
+    site: test7.w6p.ru
+    alias_domain: 
+    ssl: false
+    upstream: apache-php8
+    docroot: /home/test7/prod/test7.ru/current/public
+    web_template: bitrix
+    uid: 1007
+    gid: 1007  
